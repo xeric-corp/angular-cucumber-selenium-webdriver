@@ -2,7 +2,13 @@
 A simple angular cucumber selenium setup
 
 ### Run tests
-To run the selenium tests, use
+To run the selenium tests first run the application with:
+
+```
+npm start
+```
+
+Then run the tests with:
 
 ```
 npm run e2e
