@@ -15,3 +15,8 @@ npm run e2e
 ```
 
 e2e is just a alias for `./node_modules/.bin/cucumber-js`
+
+You can change the browser used at:
+```
+angular-cucumber-selenium-webdriver/features/support/world.js 
+```
