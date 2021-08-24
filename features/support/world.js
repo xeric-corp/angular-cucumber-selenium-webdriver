@@ -4,7 +4,7 @@ const chrome = require("selenium-webdriver/chrome");
 const safari = require("selenium-webdriver/safari");
 
 class SeleniumWorld extends World {
-    driver = new webdriver.Builder().forBrowser("safari").build();
+    driver = new webdriver.Builder().forBrowser("chrome").build();
 
     constructor(options) {
         super(options);
