@@ -22,7 +22,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "./node_modules/.bin/cucumber-js"
+    "e2e": "./node_modules/.bin/cucumber-js -p default"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.2.2",
@@ -32,6 +32,8 @@
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
+    "cucumber-pretty": "^6.0.0",
+    "cucumber-tsflow": "^4.0.0-preview.7",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~6.3.4",
