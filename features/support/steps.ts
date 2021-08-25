@@ -1,4 +1,4 @@
-import { Given, When } from "@cucumber/cucumber";
+import { Given, When, After } from "@cucumber/cucumber";
 import { strict as assert } from 'assert';
 import { By, until } from "selenium-webdriver";
 
@@ -15,4 +15,8 @@ When("the title {string} is shown", async function(string: string) {
         await driver.findElement(By.tagName("h2")).getText(),
         "Products",
     );
+});
+
+After(async function() {
+    await this.driver.quit();
 });
